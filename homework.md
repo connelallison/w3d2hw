@@ -47,26 +47,29 @@ id |                title                | year | show_time
 
 2.  Return ONLY the name column from the 'people' table
 
-SELECT title FROM movies;
-                title                
--------------------------------------
- Iron Man
- The Incredible Hulk
- Iron Man 2
- Thor
- Captain America: The First Avenger
- Avengers Assemble
- Iron Man 3
- Thor: The Dark World
- Batman Begins
- Captain America: The Winter Soldier
- Guardians of the Galaxy
- Avengers: Age of Ultron
- Ant-Man
- Captain America: Civil War
- Doctor Strange
- Guardians of the Galaxy 2
-(16 rows)
+SELECT name from people;
+       name        
+-------------------
+ Connel Allison
+ Robin Bailey
+ David Calderwood
+ George Ciurescu
+ Ally Conway
+ Christopher Croal
+ Kevin Frew
+ Stephen Higgins
+ Clare McEwan
+ Scott Osman
+ Scott Prentice
+ Fraser Ross
+ Minal Sakriya
+ Mark Sibbald
+ Louise Stewart
+ Daniel Tulloch
+ Iain Wentworth
+ Declan Malone
+ Ally McGilloway
+(19 rows)
 
 3.  Oops! Someone at CodeClan spelled Declan's name wrong! Change it to reflect the proper spelling ('CoDeclan Malon' should be 'Declan Malone').
 
